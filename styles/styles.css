@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header{
+    align-items: center;
+    background-color: black;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.logo{
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    float: left;
+    color: white;
+    font-weight: bold;
+}
+
+.logo span{
+    color:  #f1b165;
+    font-style: italic;
+    font-size: 40px;
+}
+.navbar a:hover{
+    color: #f1b165;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: right;
+}
+
+nav li {
+    margin: 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 80.2vh;
+    box-sizing: border-box;
+}
+
+.background-image {
+    background-image: url(../images/musician-g1da207504_1280.jpg);
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.75;
+    z-index: -1;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+main p, main h2 {
+    opacity: 1;
+    margin: 10px; 
+    text-align: justify;
+}
+
+.content h1{
+    font-size: 50px;
+    color: #fff;
+    font-style: italic;
+}
+
+.content p{
+    font-size: larger;
+    color: #fff;
+    font-style: oblique;
+    max-width: 850px;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+
+
+footer{
+    background-color: #000;
+    color: white ;
+    text-align: center;
+    font-size: 13px;
+    padding: 5px;
+}
+footer p {
+    margin-bottom: 10px;
+}
+
+footer i{
+    color: #f1b165;
+    font-size: 15px;
+    letter-spacing: 30px;
+}
+.Redes{
+    flex-direction: column;
+}
