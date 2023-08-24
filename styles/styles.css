@@ -42,7 +42,7 @@
   }
 
   .fondo {
-    background-image: url(../images/musician-g1da207504_1280.jpg);
+    background-image: url('../images/musician-g1da207504_1280.jpg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -65,13 +65,27 @@
   }
 
   .content2 {
-    background-color: rgba(0, 0, 0, 0.75); /* Agregar fondo semitransparente */
+    background-color: rgba(0, 0, 0, 0.75);
     padding: 30px;
     margin-right: 15px;
     border-radius: 10px;
     color: white;
     text-align:justify ;
     box-sizing: border-box;
+  }
+
+  .content3{
+    background-color: rgba(0, 0, 0, 0.75);
+    padding: 30px;
+    margin-right: 15px;
+    border-radius: 10px;
+    color: white;
+    text-align:left ;
+    margin-left: 0px;
+  }
+
+  .content3 p {
+    text-align: left;
   }
 
 
